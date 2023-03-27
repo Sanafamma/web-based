@@ -11,7 +11,12 @@ To run the secure solution, follow these steps:
 2. Install the required dependencies using pip.
 3. Run the app.py file using the command `python app.py`.
 4. Open your web browser and navigate to `http://localhost:5000`.
+ We will implement the following security features:
 
+    We will use Flask-Login for user authentication.
+    We will use HTTPS to encrypt data in transit.
+    We will use Flask-Security for access controls.
+    We will use Flask-WTF for input validation
 ## Insecure Solution
 
 To run the insecure solution, follow these steps:
